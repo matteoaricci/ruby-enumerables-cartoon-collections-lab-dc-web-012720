@@ -7,7 +7,8 @@ def roll_call_dwarves(source)
 end
 
 def summon_captain_planet(array)
-  # Your code here
+   source.collect do |n|
+     n.
 end
 
 def long_planeteer_calls# code an argument here
