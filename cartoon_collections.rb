@@ -1,6 +1,7 @@
 def roll_call_dwarves(source)
   # Your code here
   source.each_with_index do |val, index|
+    index += 1
     puts "#{index}. #{val}"
   end
 end
