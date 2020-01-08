@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(source)
    source.collect do |n|
-     n.capitalize() + !
+     n.capitalize() + "!"
    end
 end
 
