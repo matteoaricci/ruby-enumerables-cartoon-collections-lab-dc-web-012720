@@ -1,5 +1,4 @@
 def roll_call_dwarves(source)
-  # Your code here
   source.each_with_index do |val, index|
     index += 1
     puts "#{index}. #{val}"
@@ -18,7 +17,7 @@ def long_planeteer_calls(source)
   end
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(source)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
