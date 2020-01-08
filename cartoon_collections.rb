@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(array)
    source.collect do |n|
-     n.capi
+     
 end
 
 def long_planeteer_calls# code an argument here
