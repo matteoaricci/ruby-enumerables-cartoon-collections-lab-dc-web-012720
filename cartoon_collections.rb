@@ -13,7 +13,7 @@ def summon_captain_planet(source)
 end
 
 def long_planeteer_calls(source)
-  source.any? do |n|
+  source.any ? do |n|
     if n > 4 
   end 
 end
