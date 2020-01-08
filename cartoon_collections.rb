@@ -13,7 +13,11 @@ def summon_captain_planet(source)
 end
 
 def long_planeteer_calls(source)
-  source.count
+  source.count do |n|
+    if n > 4
+      return true 
+    end 
+    return false 
 end
 
 def find_the_cheese# code an argument here
