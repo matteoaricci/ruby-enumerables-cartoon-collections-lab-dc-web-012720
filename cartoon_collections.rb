@@ -13,7 +13,7 @@ def summon_captain_planet(source)
 end
 
 def long_planeteer_calls(source)
-  source.
+  source.count
 end
 
 def find_the_cheese# code an argument here
